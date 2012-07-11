@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="this is the status tab" />
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save" />
+
+    <TextView
+        android:id="@+id/starttimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start time:" />
+
+    <TextView
+        android:id="@+id/starttimeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/stepsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="steps:" />
+
+    <TextView
+        android:id="@+id/stepsValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/distanceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="distance:" />
+
+    <TextView
+        android:id="@+id/distanceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0m" />
+
+    <TextView
+        android:id="@+id/durationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="duration:" />
+
+    <TextView
+        android:id="@+id/durationValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00:00" />
+
+    <TextView
+        android:id="@+id/avgspeedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="avg speed:" />
+
+    <TextView
+        android:id="@+id/avgspeedValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0km/h" />
+
+    <TextView
+        android:id="@+id/currentspeedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="current speed:" />
+
+    <TextView
+        android:id="@+id/currentspeedValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0km/h" />
+
+</LinearLayout>
