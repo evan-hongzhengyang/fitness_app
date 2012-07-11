@@ -1,0 +1,1 @@
+A functional Android fitness APP. It can track a runner's steps(like a pedometer), current speed as well as the total milage. The APP stores data locally in the SQLite. When wifi is available, the user can upload the data of runs into a server in Google App Engine.
